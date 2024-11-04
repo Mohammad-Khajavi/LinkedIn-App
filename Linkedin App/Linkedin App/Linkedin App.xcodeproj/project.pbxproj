@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277228132CC4431C006A31C8 /* Linkedin_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228122CC4431C006A31C8 /* Linkedin_AppApp.swift */; };
+		277228152CC4431C006A31C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228142CC4431C006A31C8 /* ContentView.swift */; };
+		277228172CC4431F006A31C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277228162CC4431F006A31C8 /* Assets.xcassets */; };
+		2772281B2CC4431F006A31C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2772281A2CC4431F006A31C8 /* Preview Assets.xcassets */; };
+		277228392CC448A6006A31C8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228332CC448A6006A31C8 /* HomeScreen.swift */; };
+		2772283A2CC448A6006A31C8 /* MyJobsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228342CC448A6006A31C8 /* MyJobsScreen.swift */; };
+		2772283B2CC448A6006A31C8 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228352CC448A6006A31C8 /* MyNetworkScreen.swift */; };
+		2772283C2CC448A6006A31C8 /* MyNotificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228362CC448A6006A31C8 /* MyNotificationScreen.swift */; };
+		2772283D2CC448A6006A31C8 /* MyPostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228372CC448A6006A31C8 /* MyPostScreen.swift */; };
+		277228402CC44937006A31C8 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772283F2CC44937006A31C8 /* PostModel.swift */; };
+		277228422CC4494D006A31C8 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277228412CC4494D006A31C8 /* NetworkModel.swift */; };
+		27895CB82CC8389100FA74DE /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27895CB72CC8389100FA74DE /* NotificationModel.swift */; };
+		279C56142CC5DB40004A0160 /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279C56132CC5DB40004A0160 /* JobModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2772280F2CC4431C006A31C8 /* Linkedin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linkedin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277228122CC4431C006A31C8 /* Linkedin_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linkedin_AppApp.swift; sourceTree = "<group>"; };
+		277228142CC4431C006A31C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		277228162CC4431F006A31C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277228182CC4431F006A31C8 /* Linkedin_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Linkedin_App.entitlements; sourceTree = "<group>"; };
+		2772281A2CC4431F006A31C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		277228332CC448A6006A31C8 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		277228342CC448A6006A31C8 /* MyJobsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyJobsScreen.swift; sourceTree = "<group>"; };
+		277228352CC448A6006A31C8 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		277228362CC448A6006A31C8 /* MyNotificationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNotificationScreen.swift; sourceTree = "<group>"; };
+		277228372CC448A6006A31C8 /* MyPostScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostScreen.swift; sourceTree = "<group>"; };
+		2772283F2CC44937006A31C8 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		277228412CC4494D006A31C8 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		27895CB72CC8389100FA74DE /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		279C56132CC5DB40004A0160 /* JobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2772280C2CC4431C006A31C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277228062CC4431C006A31C8 = {
+			isa = PBXGroup;
+			children = (
+				277228112CC4431C006A31C8 /* Linkedin App */,
+				277228102CC4431C006A31C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277228102CC4431C006A31C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2772280F2CC4431C006A31C8 /* Linkedin App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277228112CC4431C006A31C8 /* Linkedin App */ = {
+			isa = PBXGroup;
+			children = (
+				2772283E2CC44924006A31C8 /* Model */,
+				277228382CC448A6006A31C8 /* Views */,
+				277228122CC4431C006A31C8 /* Linkedin_AppApp.swift */,
+				277228142CC4431C006A31C8 /* ContentView.swift */,
+				277228162CC4431F006A31C8 /* Assets.xcassets */,
+				277228182CC4431F006A31C8 /* Linkedin_App.entitlements */,
+				277228192CC4431F006A31C8 /* Preview Content */,
+			);
+			path = "Linkedin App";
+			sourceTree = "<group>";
+		};
+		277228192CC4431F006A31C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2772281A2CC4431F006A31C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		277228382CC448A6006A31C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				277228332CC448A6006A31C8 /* HomeScreen.swift */,
+				277228342CC448A6006A31C8 /* MyJobsScreen.swift */,
+				277228352CC448A6006A31C8 /* MyNetworkScreen.swift */,
+				277228362CC448A6006A31C8 /* MyNotificationScreen.swift */,
+				277228372CC448A6006A31C8 /* MyPostScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2772283E2CC44924006A31C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2772283F2CC44937006A31C8 /* PostModel.swift */,
+				277228412CC4494D006A31C8 /* NetworkModel.swift */,
+				279C56132CC5DB40004A0160 /* JobModel.swift */,
+				27895CB72CC8389100FA74DE /* NotificationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2772280E2CC4431C006A31C8 /* Linkedin App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2772281E2CC4431F006A31C8 /* Build configuration list for PBXNativeTarget "Linkedin App" */;
+			buildPhases = (
+				2772280B2CC4431C006A31C8 /* Sources */,
+				2772280C2CC4431C006A31C8 /* Frameworks */,
+				2772280D2CC4431C006A31C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linkedin App";
+			productName = "Linkedin App";
+			productReference = 2772280F2CC4431C006A31C8 /* Linkedin App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277228072CC4431C006A31C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2772280E2CC4431C006A31C8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 2772280A2CC4431C006A31C8 /* Build configuration list for PBXProject "Linkedin App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277228062CC4431C006A31C8;
+			productRefGroup = 277228102CC4431C006A31C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2772280E2CC4431C006A31C8 /* Linkedin App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2772280D2CC4431C006A31C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2772281B2CC4431F006A31C8 /* Preview Assets.xcassets in Resources */,
+				277228172CC4431F006A31C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2772280B2CC4431C006A31C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2772283B2CC448A6006A31C8 /* MyNetworkScreen.swift in Sources */,
+				279C56142CC5DB40004A0160 /* JobModel.swift in Sources */,
+				277228402CC44937006A31C8 /* PostModel.swift in Sources */,
+				277228152CC4431C006A31C8 /* ContentView.swift in Sources */,
+				277228422CC4494D006A31C8 /* NetworkModel.swift in Sources */,
+				2772283C2CC448A6006A31C8 /* MyNotificationScreen.swift in Sources */,
+				2772283A2CC448A6006A31C8 /* MyJobsScreen.swift in Sources */,
+				277228132CC4431C006A31C8 /* Linkedin_AppApp.swift in Sources */,
+				2772283D2CC448A6006A31C8 /* MyPostScreen.swift in Sources */,
+				27895CB82CC8389100FA74DE /* NotificationModel.swift in Sources */,
+				277228392CC448A6006A31C8 /* HomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2772281C2CC4431F006A31C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2772281D2CC4431F006A31C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2772281F2CC4431F006A31C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Linkedin App/Linkedin_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Linkedin App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "op.Linkedin-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		277228202CC4431F006A31C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Linkedin App/Linkedin_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Linkedin App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "op.Linkedin-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2772280A2CC4431C006A31C8 /* Build configuration list for PBXProject "Linkedin App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2772281C2CC4431F006A31C8 /* Debug */,
+				2772281D2CC4431F006A31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2772281E2CC4431F006A31C8 /* Build configuration list for PBXNativeTarget "Linkedin App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2772281F2CC4431F006A31C8 /* Debug */,
+				277228202CC4431F006A31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277228072CC4431C006A31C8 /* Project object */;
+}
